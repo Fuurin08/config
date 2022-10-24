@@ -6,7 +6,7 @@
     // Choose the order of the modules
     "modules-left": ["sway/workspaces", "sway/mode"],
     "modules-center": ["sway/window"],
-    "modules-right": ["network", "pulseaudio", "cpu", "memory", "tray", "clock"],
+    "modules-right": ["network", "disk", "pulseaudio", "cpu", "memory", "tray", "clock"],
     "sway/workspaces": {
         "disable-scroll": true,
         "all-outputs": false,
@@ -62,6 +62,11 @@
             "default": ["", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "disk": {
+	"integer": 60,
+	"path": "/",
+	"format": "﫭{free} ",
     },
     //"custom/spotify": {
     //    "format": " {}",
