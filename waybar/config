@@ -33,7 +33,7 @@
     "clock": {
     	"interval": 1,
 	"timezone": "Asia/Shanghai",
-        "format": "{:%Y-%m-%d %H:%M:%S}"
+        "format": "{:%m-%d %H:%M:%S}"
     },
     "cpu": {
         "format": "<b></b> {usage}%"
